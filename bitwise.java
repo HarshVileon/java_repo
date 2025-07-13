@@ -16,9 +16,9 @@ class bitwise {
     }
      public static void main(String[] args){
         bitwise obj = new bitwise();
-        int[] result = obj.computeOperations(10, 5);
-        for (int res : result) {
-            System.out.println(res);
+        int[] res = obj.computeOperations(10, 5);
+        for (int r : res) {
+            System.out.println(r);
         }
     }
 }
